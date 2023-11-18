@@ -23,6 +23,10 @@ export default function App() {
     <>
       <h1>React CORS Guide</h1>
       {res && <h2>{res.message}</h2>}
+      <p>
+        Developers have struggled with CORS for longer then they should. This is
+        because it&apos;s a tricky concept to grasp.
+      </p>
     </>
   );
 }
